@@ -1,0 +1,4 @@
+# lsblk
+## assuming sda
+sudo umount /dev/sda*
+sudo dd if=./IMAGEFILE.iso of=/dev/sda bs=4M status=progress && sync
