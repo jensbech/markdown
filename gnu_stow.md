@@ -1,0 +1,2 @@
+- Stow all in current folder into home: `stow -v -t ~ .`
+- Unstow tha same links: `stow -v -D -t ~ .`
